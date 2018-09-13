@@ -18,12 +18,14 @@
   "require": {
     "php": ">=5.5",
     "behat/behat": ">=3.0.6",
-    "behat/environment-loader": "1.*",
-    "phpunit/phpunit": "4 - 5"
+    "behat/environment-loader": "1.*"
   },
   "autoload": {
     "psr-4": {
       "Behat\\SoapExtension\\": "src/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4 - 6"
   }
 }
